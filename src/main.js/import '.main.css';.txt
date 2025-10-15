@@ -1,0 +1,10 @@
+import './main.css';
+
+const countEl = document.getElementById('count');
+const button = document.getElementById('increment');
+
+let count = 0;
+button.addEventListener('click', () => {
+  count++;
+  countEl.textContent = `count is ${count}`;
+});
