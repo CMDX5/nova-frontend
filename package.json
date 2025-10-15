@@ -3,15 +3,17 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite",            // lance le serveur de dev local
+    "build": "vite build",    // construit le projet pour la production
+    "preview": "vite preview" // permet de prévisualiser la build localement
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "vite": "^4.0.0"
+    "vite": "^4.5.14",
+    "@vitejs/plugin-react": "^4.0.0"
   }
 }
+
